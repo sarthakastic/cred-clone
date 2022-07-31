@@ -1,8 +1,12 @@
 import React from 'react'
+import Landing from '../components/Landing'
+import Header from '../components/common/Header'
 
 const Home = () => {
-  return (
-    <div>home</div>
+  return (<>
+    <Header/>
+   <Landing/>
+   </>
   )
 }
 
