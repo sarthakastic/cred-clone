@@ -10,6 +10,7 @@ import Peek from '../components/Peek'
 import MobileScroll from '../components/mobileScroll/MobileScroll'
 import Story from '../components/Story'
 import Rating from '../components/Rating'
+import Footer from '../components/Footer'
 const Home = () => {
   return (<>
     <Header/>
@@ -27,6 +28,7 @@ const Home = () => {
    <Security/>
    <Story/>
    <Rating/>
+   <Footer/>
    </>
   )
 }
